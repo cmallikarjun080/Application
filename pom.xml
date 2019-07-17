@@ -137,6 +137,16 @@ THE SOFTWARE.
 
   <dependencyManagement>
     <dependencies>
+
+	    <!--testing-->
+ <dependency>
+    <groupId>org.jenkins-ci.plugins.workflow</groupId>
+    <artifactId>workflow-job</artifactId>
+    <version>2.1</version>
+    <scope>test</scope>
+</dependency>
+
+	    
       <dependency>
         <groupId>org.apache.ant</groupId>
         <artifactId>ant</artifactId>
