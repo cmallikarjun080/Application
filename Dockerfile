@@ -26,3 +26,4 @@ LABEL Description="This is an experimental image for the master branch of the Je
 
 COPY --from=builder /jenkins/src/war/target/jenkins.war /usr/share/jenkins/jenkins.war
 ENTRYPOINT ["tini", "--", "/usr/local/bin/jenkins.sh"]
+bbbhbhbhjajaklk
